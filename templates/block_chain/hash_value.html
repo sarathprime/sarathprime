@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+{% extends "block_chain/block_chain_index.html" %}
+{% load static %}
+{% block content %}
+  <head>
+	  <style>
+		  .button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+	  </style>
+  	<title>Table 01</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="{% static 'block/view_table/css/style.css' %}">
+
+	</head>
+	<body>
+	<script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Table #01</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table class="table">
+						  <thead class="thead-primary">
+						    <tr>
+<!--						      <th>#</th>-->
+						      <th>RECIPTIENT NAME</th>
+						      <th>TRANSFER AMOUNT</th>
+						      <th>DONOR</th>
+								<th>PURPOSE</th>
+								<th>HASH</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						  {% for data in datas %}
+						    <tr>
+<!--						      <th scope="row">1</th>-->
+						      <td>{{data.recipitent}}</td>
+						      <td>{{data.amount}}</td>
+						      <td>markotto@email.com</td>
+								<td>NEED TO BE HASHED</td>
+								<td><a href="#"> <button class="button-33" role="button">ENCRYPT</button></a></td>
+						    </tr>
+						  {% endfor %}
+<!--						    <tr>-->
+<!--						      <th scope="row">2</th>-->
+<!--						      <td>Jacob</td>-->
+<!--						      <td>Thornton</td>-->
+<!--						      <td>jacobthornton@email.com</td>-->
+<!--						    </tr>-->
+<!--						    <tr>-->
+<!--						      <th scope="row">3</th>-->
+<!--						      <td>Larry</td>-->
+<!--						      <td>the Bird</td>-->
+<!--						      <td>larrybird@email.com</td>-->
+<!--						    </tr>-->
+<!--						    <tr>-->
+<!--						      <th scope="row">4</th>-->
+<!--						      <td>John</td>-->
+<!--						      <td>Doe</td>-->
+<!--						      <td>johndoe@email.com</td>-->
+<!--						    </tr>-->
+<!--						    <tr>-->
+<!--						      <th scope="row">5</th>-->
+<!--						      <td>Gary</td>-->
+<!--						      <td>Bird</td>-->
+<!--						      <td>garybird@email.com</td>-->
+<!--						    </tr>-->
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="{% static 'block/table/css/js/jquery.min.js' %}"></script>
+  <script src="{% static 'block/table/css/js/popper.js' %}"></script>
+  <script src="{% static 'block/table/css/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'block/table/css/js/main.js' %}"></script>
+	{% endblock %}
+
+	</body>
+</html>
+<!-- HTML !-->
+
+
+/* CSS */
+
+
+<!-- HTML !-->
+
+
+/* CSS */

@@ -1,0 +1,201 @@
+Name,Email,Age,product,weight,Customer_Type,address,city
+Rashi Srivastava,nehatayal2292@gmail.com,18-25,product1,10,primary,"8186 Spring Avenue Decatur, GA 30030",GA
+Pankhudee gupta,abhishektayal25@gmail.com,18-25,product1,10,primary,"5 E. Somerset Ave. Fond Du Lac, WI 54935",WI
+Meenal Sarwaiya,sonusarveshtiwari@gmail.com,18-25,product1,10,primary,"412 Cross Lane Stafford, VA 22554",VA
+Prachi,Pushpal@pushpal.com,18-25,product1,10,primary,"98 Birch Hill St. Apex, NC 27502",NC
+Neha,modijyoti4@gmail.com,25-40,product1,10,primary,"9 Nichols Avenue Bemidji, MN 56601",MN
+Abhishek Tayal,vidushiaggarwal2000@gmail.com,25-40,product1,10,primary,"16 Deerfield St. Pompano Beach, FL 33060",FL
+Sonali Tiwari,Ruchi20.rj@gmail. Com,40-60,product1,10,primary,"7527 Pacific Drive Langhorne, PA 19047",PA
+Pushpal,sudhanshu.oberai297@gmail.com,40-60,product1,10,primary,"7130 Tunnel Ave. Bloomfield, NJ 07003",NJ
+Jyoti modi,pankajjain7119@gmail.com,40-60,product1,10,primary,"299 West Marvon St. Westland, MI 48185",MI
+Shraddh khandelwal,ayushjain71@gmail.com,40-60,product1,10,primary,"34 Creek St. Hialeah, FL 33010",FL
+Ruchi,Vijayajain19@gmail.com,40-60,product1,10,primary,"81 Temple Street Lansdowne, PA 19050",PA
+Shikha,wadhwanit@gmail.com,25-40,product1,10,primary,"690 Bishop Street Biloxi, MS 39532",MS
+Pankaj,sarveshtiwaribjp@gmail.com,40-60,product1,10,primary,"8902 Applegate St. Rolling Meadows, IL 60008",IL
+Ayush Jain,Sarla1641@gmail.com,18-25,product1,10,primary,"28 Railroad St. Clifton Park, NY 12065",NY
+Vijaya jain,mohityadav193942@gmail.com,40-60,product1,10,primary,"641 S. State Street Albany, NY 12203",NY
+Tanishq Wadhwani,sanjeevca2039@gmail.com,18-25,product1,10,primary,"38 Gulf Rd. Elgin, IL 60120",IL
+Sarvesh Tiwari,pkmkd 1975@gmail.com,40-60,product1,10,primary,"7980 Helen Street West Bloomfield, MI 48322",MI
+Mridul Tayal,St.hvsu@gmail.com,40-60,product1,10,primary,"8619 Southampton Street Lady Lake, FL 32159",FL
+Shikha,guptavineet12@gmail.com,25-40,product1,10,primary,"946 Piper Street Elkton, MD 21921",MD
+Sanjeev Garg,bhandari.dimple04@gmail.com,40-60,product2,20,primary,"6 Deerfield Lane Hopewell, VA 23860",VA
+Pawan kumar,sulabh.thapa15@gmail.com,40-60,product2,20,primary,"555 Woodland Ave. Mechanicsburg, PA 17050",PA
+SanjeevTayal,lahari2310@gmail.com,40-60,product2,20,primary,"476 South Rocky River Road Tewksbury, MA 01876",MA
+Vineet gupta,gupta1264@gmail.com,25-40,product2,20,primary,"9 Lees Creek St. Neptune, NJ 07753",NJ
+Dimple,waghatharva001@gmail.com,25-40,product2,20,primary,"8632 Morris Avenue Dorchester, MA 02125",MA
+Sulabh thapa,monuparashar100@gmail.com,18-25,product2,20,irregular,"80 Annadale Dr. Ithaca, NY 14850",NY
+Sahil Agrawal,kapilmangla005@gmail.com,18-25,product2,20,irregular,"285 Plymouth Street Fitchburg, MA 01420",MA
+Satish Gupta,rchgupta@gmail.com,40-60,product2,20,irregular,"34 Peninsula St. Key West, FL 33040",FL
+Rahul,abhidce.dtu@gmail.com,40-60,product2,20,irregular,"39 Second St. Opa Locka, FL 33054",FL
+Haripal Parashar,Xyz,18-25,product2,20,irregular,"894 Winding Way St. New Bedford, MA 02740",MA
+Dr. Kapil Mangla,arishtaveiro@outlook.com,25-40,product2,20,irregular,"668 East Atlantic Court Rockford, MI 49341",MI
+Richa,j.c.chtrvd@gmail.com,25-40,product2,20,irregular,"7931 Ann Lane Lutherville Timonium, MD 21093",MD
+Abhishek Verma,sidhartbawa7@gmail.com,18-25,product2,20,irregular,"8731 Walt Whitman Street Ringgold, GA 30736",GA
+Surender panwar,Shishiradv@yahoo.co.in,25-40,product2,20,irregular,"355 Marvon Drive Lake Charles, LA 70605",LA
+Arisht,abakshi1998@gmail.com,18-25,product2,20,irregular,"78 Tower Dr. Sterling Heights, MI 48310",MI
+Somya,saranshg08@gmail.com,18-25,product2,20,irregular,"762 Kirkland Court Rocklin, CA 95677",CA
+Gagan,akshitagoel9@gmail.com,18-25,product2,20,irregular,"449 Summerhouse Ave. Stamford, CT 06902",CT
+Shishir kumar Saxena,ganiket10@gmail.com,40-60,product2,20,irregular,"185 West Ann St. El Dorado, AR 71730",AR
+Arjun Bakshi,moneykanwar@gmail.com,18-25,product2,20,irregular,"471 Van Dyke Drive Glenside, PA 19038",PA
+Saransh,deepali25101996@gmail.com,18-25,product2,20,irregular,"7142 N. Honey Creek Court Prior Lake, MN 55372",MN
+Akshita Goel,Balgopal.Svsu@Gmail.com,18-25,product1,10,irregular,"7805 Crescent St. East Brunswick, NJ 08816",NJ
+Aniket Gupta,sabarnna130@gmail.com,18-25,product1,10,irregular,"37 Logan Ave. Thomasville, NC 27360",NC
+Mani Kanwar Singh,amanju018@gmail.com,25-40,product1,10,irregular,"2 South St. Beachwood, OH 44122",OH
+Deepali Gupta,Vinita.bainsla@yahoo.com,18-25,product1,10,irregular,"8880 Rockville Street Marlborough, MA 01752",MA
+Baal Gopal,adinonu2212@gmail.com,25-40,product1,10,irregular,"540 Catherine Drive New Philadelphia, OH 44663",OH
+Ugh hcf,manasvisingwal@gmail.com,18-25,product1,10,irregular,"62 Gulf Rd. Champlin, MN 55316",MN
+Manju Ahlawat,sandympto@gmail.com,25-40,product1,10,irregular,"87 Miller Ave. Hixson, TN 37343",TN
+Vineeta,Natasha. HVSU @gmail. Com,25-40,product1,10,irregular,"7862 East Washington Lane Martinsville, VA 24112",VA
+Niti,ganiket10@gmail.com,40-60,product2,20,irregular,"8419 Lakeshore Ave. Ashburn, VA 20147",VA
+Parisha,yukti122000@gmail.com,18-25,product2,20,irregular,"2 Hillcrest Drive Norwalk, CT 06851",CT
+Sandeep Tayal,Kaushik_gaurav@outlook.com,25-40,product2,20,irregular,"33 Arlington Court La Porte, IN 46350",IN
+Natasha,akhilesh1234karad@gmail.com,25-40,product2,20,irregular,"92 Newport Rd. Waltham, MA 02453",MA
+Aniket Gupta,vaibhavraghav2012@gmail.com,18-25,product2,20,irregular,"7562 Rockaway Street East Elmhurst, NY 11369",NY
+Yukti,amittal8828@gmail.com,18-25,product2,20,irregular,"45 Winding Way Circle Rahway, NJ 07065",NJ
+Gaurav Kaushik,divyansh.stone@gmail.com,25-40,product2,20,irregular,"9281 Lakeshore Court Hickory, NC 28601",NC
+Sandeep Singh,anshulg343@gmail.com,40-60,product2,20,irregular,"5 Arch St. Garland, TX 75043",TX
+Vaibhav,tanyaimj@gmail.com,25-40,product2,20,irregular,"7549 Arcadia Avenue Oxford, MS 38655",MS
+Ashish Mittal,moneykanwar@gmail.com,40-60,product2,20,irregular,"5 Rockaway Lane Indiana, PA 15701",PA
+Ajay,neetiarorapkl@gmail.com,25-40,product2,20,irregular,"70 Peachtree Street Ann Arbor, MI 48103",MI
+Anshul Gupta,atri_deepanshu@yahoo.in,18-25,product2,20,irregular,"20 William St. Millington, TN 38053",TN
+Santosh Gupta,Jain.tanisha85@gmail.com,40-60,product3,30,regular,"28 Princess Lane Cuyahoga Falls, OH 44221",OH
+Mani Kanwar Singh,surabhikapoormhrd@gmail.com,25-40,product3,30,regular,"9426 Lookout Lane Riverdale, GA 30274",GA
+Neeti Arora,123puchau@gmail.com,25-40,product3,30,regular,"518 Sherman St. Bellmore, NY 11710",NY
+Deepanshu,Rudraksha.us@gmail.com,25-40,product3,30,regular,"648 NE. Tanglewood Street Norwood, MA 02062",MA
+Divya,srivastava264@gmail.com,18-25,product3,30,regular,"529 Glendale Rd. Trumbull, CT 06611",CT
+Aarti,sinha,25-40,product3,30,regular,"936 Cedar Swamp Ave. Calhoun, GA 30701",GA
+Ajsy Gupta,sharma.nikhilesh61@gmail.com,40-60,product3,30,regular,"88 Illinois Street Wakefield, MA 01880",MA
+Utkarsh Singh Rathore,smpprerna@gmail.com,40-60,product3,30,regular,"72 South Marvon Street Ballston Spa, NY 12020",NY
+Mohit Srivastava,Vijay.singhlodhi99@gmail.com,25-40,product3,30,regular,"684 Beechwood Ave. Feasterville Trevose, PA 19053",PA
+ravi,mkgupta_3@yahoo.com,40-60,product3,30,regular,"97 Strawberry Street Newtown, PA 18940",PA
+Nikhilesh,maneesha27@yahoo.com,25-40,product3,30,regular,"9026 SW. 2nd Street Bear, DE 19701",DE
+Prerna Sharma,Man_ishgupta@rediffmail.com,40-60,product3,30,regular,"132 Meadowbrook Avenue Ottumwa, IA 52501",IA
+Vijay singh,ashokkumar.nuh@gmail.com,40-60,product3,30,regular,"37 Corona Court Portland, ME 04103",ME
+Mukesh Gupta,atishaykatiyar@gmail.com,40-60,product3,30,regular,"8 Chestnut Dr. Cranberry Twp, PA 16066",PA
+Maneesha Sharma,aggarwalnav@gmail.com,40-60,product3,30,regular,"7340 North Oak Valley Court Onalaska, WI 54650",WI
+Manish gupta,nishantleo98@gmail.com,40-60,product3,30,regular,"87 Olive Street Westwood, NJ 07675",NJ
+Ashok Kumar Gupta,yadavvasu94@gmail.com,40-60,product3,30,regular,"383 East San Carlos Court Plymouth, MA 02360",MA
+Akriti Goyal,prashantkrh@gmail.com,18-25,product3,30,regular,"295 West Baker Court Amsterdam, NY 12010",NY
+Naveen,tanishakothari46@gmail.com,40-60,product3,30,regular,"980 Stonybrook Street Athens, GA 30605",GA
+Nishant Verma,aaditya.dhama@gmail.com,18-25,product3,30,regular,"7247 Cobblestone St. Lakeland, FL 33801",FL
+Vasu Yadav,hydroarpan@gmail.com,25-40,product3,30,regular,"53 Applegate St. Camden, NJ 08105",NJ
+Prashant,Jethalal619@gmail.com,25-40,product3,30,regular,"40 Oklahoma St. Davenport, IA 52804",IA
+Tanisha,parveenyadav1487@gmail.com,25-40,product2,20,regular,"6 Pawnee Drive Ogden, UT 84404",UT
+Aaditya Dhama,saurabh.nahariya2017@vitstudent.ac.in,25-40,product2,20,regular,"9316 Gregory St. Chattanooga, TN 37421",TN
+Sakshi batra,drvidhyabalke@gmail.com,18-25,product2,20,regular,"25 Shore St. Winder, GA 30680",GA
+Jetha lal,piyushjain584@gmail.com,40-60,product2,20,regular,"453 W. Wagon Ave. Ocoee, FL 34761",FL
+Parveen yadav,saranshg08@gmail.com,18-25,product2,20,regular,"974 Nut Swamp Drive Flint, MI 48504",MI
+Hardik Marwah,Nikhilverma04012000@gmail.com,18-25,product2,20,regular,"5 Princeton Drive New York, NY 10002",NY
+Vidhya Balke,nipyup96@gmail.com,40-60,product2,20,regular,"939 E. Lexington St. Ontario, CA 91762",CA
+Piyush Jain,shazan85akhter@gmail.com,18-25,product2,20,regular,"8993 Lakewood Ave. Ft Mitchell, KY 41017",KY
+Saransh gupta,aradikhanna@gmail.com,18-25,product2,20,regular,"60 Myrtle St. Providence, RI 02904",RI
+NikhilVerma,yavnikagarg3435@gmail.com,18-25,product2,20,regular,"771 Arcadia Ave. Riverview, FL 33569",FL
+Nishin,Vishallife.97@gmail.com,18-25,product2,20,regular,"8962 Theatre St. Cartersville, GA 30120",GA
+Shazan Akhter,shubhamagg19@gmail.com,18-25,product2,20,regular,"8696 Illinois Ave. Lake Worth, FL 33460",FL
+Aaradhya Khanna,shivamgoel413@gmail.com,18-25,product1,10,regular,"60 Cedar Street Dundalk, MD 21222",MD
+Yavnika Garg,apurvamogh@gmail.com,18-25,product1,10,regular,"9176 Primrose Street Grand Forks, ND 58201",NJ
+Vishal,ng41998@gmail.com,18-25,product1,10,regular,"8855 Trout Dr. Ridgewood, NJ 07450",NJ
+Shubham Aggarwal,tushar.edm@gmail.com,18-25,product1,10,regular,"8802 SE. Wilson Lane Lanham, MD 20706",MD
+Shivam Goel,bagla.udit@gmail.com,18-25,product1,10,regular,"9027 Plymouth Lane Wyandotte, MI 48192",MI
+Apurv Agarwal,benaniket@gmail.com,18-25,product1,10,regular,"8489 NE. Shub Farm Street Green Bay, WI 54302",WI
+Nitin Gupta,Ayan.glogs@gmail.com,18-25,product1,10,regular,"7031 Jennings Lane Stow, OH 44224",OH
+Tushar Singh,gusainritik16@gmail.com,18-25,product2,20,regular,"73 John Drive Passaic, NJ 07055",NJ
+Udit Bagla,adityabhatia.dtu@gmail.com,18-25,product2,20,regular,"767 Pine Rd. Middletown, CT 06457",CT
+Mr Aniket Gupta,shokeen_nishant@yahoo.com,18-25,product2,20,regular,"942 White Rd. Soddy Daisy, TN 37379",TN
+Ayan,rahulprasoon489@gmail.com,18-25,product3,30,regular,"8073 Cross St. North Brunswick, NJ 08902",NJ
+Ritik,adityaanand1697@gmail.com,18-25,product3,30,regular,"7364 Vermont Ave. Wake Forest, NC 27587",NC
+Aditya Bhatia,manmeetjh0306@gmail.com,18-25,product3,30,regular,"7634 Schoolhouse Dr. Oakland Gardens, NY 11364",NY
+Nishant Shokeen,r98sahay@gmail.com,18-25,product3,30,regular,"9951 John Ave. Whitehall, PA 18052",PA
+Rahul prasoon,dk9654819049@gmail.com,18-25,product3,30,regular,"664 West Bank Drive Memphis, TN 38106",TN
+Aditya Anand,avirtripathi12@gmail.com,18-25,product3,30,regular,"76 Winchester Drive Ladson, SC 29456",SC
+Manmeet Jha,sarthakaggarwal1997@gmail.com,18-25,product3,30,regular,"485 Inverness Lane Schenectady, NY 12302",NY
+RAKSHIT Sahay,saurabhvitee@gmail.com,18-25,product3,30,regular,"7252 Gates Ave. Toms River, NJ 08753",NJ
+DEEPAK KUMAR,swaragcrashing@gmail.com,18-25,product3,30,regular,"70 Pawnee Lane Oak Creek, WI 53154",WI
+Avir tripathi,morewerhh69@gmail.com,18-25,product2,20,regular,"73 South Westport St. Port Chester, NY 10573",NY
+Sarthak Aggarwal,omix3g@gmail.com,18-25,product3,30,regular,"520 Rockledge Lane Palm Harbor, FL 34683",FL
+Rupali,Mansibatra07@yahoo.co.in,18-25,product3,30,regular,"698 6th Drive Des Plaines, IL 60016",IL
+Gaurav,satyambasil@gmail.com,18-25,product3,30,regular,"9721 Edgemont St. Trenton, NJ 08610",NJ
+Param,souvikkar@dtu.ac.in,18-25,product3,30,regular,"83 Campfire St. Astoria, NY 11102",NY
+Omkaar Mazumdar,jainrachit2011@gmail.com,18-25,product3,30,regular,"8586 Newbridge St. Miami Gardens, FL 33056",FL
+Mansi,kavya.shreya26@gmail.com,18-25,product3,30,regular,"59 Hanover Street Council Bluffs, IA 51501",IA
+Satyam Gupta,mohdrahim97@gmail.com,18-25,product3,30,regular,"81 Second Lane Naugatuck, CT 06770",CT
+Souvik,anishbhalla1998@gmail.com,18-25,product3,30,regular,"594 East Peachtree Street Ponte Vedra Beach, FL 32082",FL
+Rachit,singh97prince@gmail.com,18-25,product2,20,regular,"9 Airport Ave. Hilliard, OH 43026",OH
+KABYA SHREYA,harshv509@gmail.com,18-25,product4,30,regular,"30 Marconi St. Scotch Plains, NJ 07076",NJ
+Mohd Rahim,aryan.spidey@gmail.com,18-25,product4,30,regular,"7548 Thomas Street Antioch, TN 37013",TN
+ANISH BHALLA,parthsarthigoyal2912@gmail.com,18-25,product4,30,regular,"15 State Ave. Watertown, MA 02472",MA
+Prince,hgdtu2016@gmail.com,18-25,product4,30,regular,"89 Indian Summer Dr. Corpus Christi, TX 78418",TX
+Harsh,prateek.chawla98@gmail.com,18-25,product4,30,regular,"672 Woodsman Street North Olmsted, OH 44070",OH
+Palak Aggarwal,manasvisingwal@gmail.com,40-60,product4,30,regular,"12 Ridge Street Rocky Mount, NC 27804",NC
+Parth sarthi Goyal,adarshchawla01@gmail.com,18-25,product4,30,regular,"602 James Court Hamburg, NY 14075",NY
+Hardik Garg,harsh.sharma.2291997@gmail.com,18-25,product4,30,regular,"588 Jones Street Laurel, MD 20707",MD
+Prateek,pratishtha2210@gmail.com,18-25,product4,30,regular,"5 Creekside St. Buckeye, AZ 85326",AZ
+Shubham Aggarwal,aadityasaini2305@gmail.com,18-25,product4,30,regular,"8297 Grove Street Indian Trail, NC 28079",NC
+Rahul Beer,Dhasmana.sanchit@gmail.com,18-25,product4,30,regular,"7699 Greystone Dr. Bridgeton, NJ 08302",NJ
+Harsh,sanjeevsaini1612@gmail.com,25-40,product4,30,regular,"9352 East Pheasant St. West Chester, PA 19380",PA
+Pratishtha,rohankundara1812@gmail.com,18-25,product4,30,regular,"46 SE. Bow Ridge St. Concord, NH 03301",WA
+Aaditya Saini,bhivyanshu2@gmail.com,18-25,product4,30,regular,"258 Peachtree Road Seattle, WA 98144",GA
+SANCHIT DHASMANA,gurjars461@gmail.com,18-25,product4,30,regular,"155 Forest St. Norcross, GA 30092",GA
+RAHUL GARG,lakshaychandna179@gmail.com,18-25,product4,30,regular,"209 E. Miller Street East Orange, NJ 07017",NJ
+Rohan kundara,Sahilkumar22g98@gmail.com,18-25,product4,30,regular,"202 Fifth St. Reston, VA 20191",WA
+Bhivyanshu Arya,Pnbudhaulia@gmail.com,18-25,product4,30,regular,"150 Lower River Rd. Oakland, CA 94603",CA
+GOURAV GURJAR,adityaprasad232@gmail.com,18-25,product4,30,regular,"17 Hickory Court Willingboro, NJ 08046",NJ
+Lakshay Chandna,nanhikhushi12@gmail.com,18-25,product4,30,regular,"8591 Corona St. New Albany, IN 47150",IN
+Sahil kumar,tyagidhruv123@gmail.com,18-25,product4,30,regular,"7875 Rockville Rd. Flemington, NJ 08822",NJ
+Prakash,rohit37bharti@gmail.com,18-25,product4,30,regular,"37 Grand Court Plainfield, NJ 07060",NJ
+ADITYA PRASAD,sekhriritwik@gmail.com,18-25,product4,30,regular,"95 Oxford Street Beaver Falls, PA 15010",PA
+Piyush,ana.agrim@gmail.com,18-25,product4,30,regular,"636 South Church St. Englewood, NJ 07631",NJ
+Dhruv Tyagi,ayushi.malhotra97@gmail.com,18-25,product4,30,regular,"85 Forest Dr. Chambersburg, PA 17201",PA
+Rohit,shovickghosh123@gmail.com,18-25,product4,30,regular,"7048 NE. Heather Lane Duluth, GA 30096",GA
+RITWIK SEKHRI,Rajat.mann@yahoo.com,18-25,product4,30,regular,"6 Marsh Drive Bay City, MI 48706",MI
+Agrim,khusbooranga@gmail.com,18-25,product4,30,regular,"245 W. Brookside Ave. Windermere, FL 34786",FL
+Ayushi Malhotra,ojhalakshya@gmail.com,18-25,product3,30,regular,"719 Argyle Avenue Ankeny, IA 50023",IA
+Shovick Ghosh,samsinghal1402@gmail.com,18-25,product3,30,regular,"806 Argyle Rd. Chicopee, MA 01020",MA
+Rajat mann,Devanshdobhal21@gmail.com,18-25,product3,30,regular,"8 Tanglewood Road Acworth, GA 30101",GA
+Khushboo,vrinda.stmarys@gmail.com,18-25,product3,30,regular,"9964 Bridgeton St. Annandale, VA 22003",VA
+Lakshya Ojha,sahils983@gmail.com,18-25,product3,30,regular,"7516 West San Juan Rd. Burlington, MA 01803",MA
+Samarth Singhal,sarthakbhatt12@gmail.com,18-25,product3,30,regular,"884 Meadowbrook Street Severna Park, MD 21146",MD
+Devansh,dharmanshudtu@gmail.com,18-25,product3,30,regular,"880 Old York St. Cocoa, FL 32927",FL
+Vrinda Narula,vaibhavsharma1998@gmail.com,18-25,product3,30,regular,"67 Theatre Avenue Southampton, PA 18966",PA
+Sahil shah,nanhikhushi12@gmail.com,18-25,product3,30,regular,"37 Bohemia Road Sacramento, CA 95820",CA
+Sarthak,anirudhgoyal.77@gmail.com,18-25,product2,20,regular,"78 Middle River Drive Clarksville, TN 37040",TN
+Dharmanshu Kumar,ayushs072@gmail.com,18-25,product4,30,regular,"390 Branch Court Livonia, MI 48150",MI
+Vaibhav Sharma,kinlohiya@gmail.com,18-25,product4,30,regular,"977 Sherwood Rd. Beckley, WV 25801",WV
+Himanshu,bhaveshvatsa497@gmail.com,18-25,product4,30,regular,"64 Hall St. Hudsonville, MI 49426",MI
+Anirudh Goyal,kavyan1702@gmail.com,18-25,product4,30,regular,"193 Liberty St. Macon, GA 31204",GA
+Ayush Srivastava,jain.shubhanshu2000@gmail.com,18-25,product4,30,regular,"834 Tower Rd. Clarkston, MI 48348",MI
+Krishna Lohiya,Kumardeepak5000@yahoo.com,18-25,product3,30,regular,"723 Stonybrook Lane Aliquippa, PA 15001",PA
+Bhavesh vatsa,namanyadav0007@gmail.com,18-25,product3,30,regular,"698 Livingston St. Park Ridge, IL 60068",IL
+Kavya,aavritiarora55@gmail.com,18-25,product3,30,regular,"66 Devonshire Street Holland, MI 49423",MI
+Shubhanshu Jain,roshan750323@gmail.com,18-25,product3,30,regular,"969 S. 53rd Street Skokie, IL 60076",IL
+Deepak,nanhikhushi12@gmail.com,18-25,product1,10,regular,"606 Kent Street East Northport, NY 11731",NY
+Naman Yadav,uditkitchlu9388@gmail.com,18-25,product1,10,regular,"75 Bear Hill Dr. Emporia, KS 66801",KS
+Aavriti,savinaydtu@gmail.com,18-25,product1,10,regular,"377 Mayfield St. Saint Charles, IL 60174",IL
+Roshan Rai,abhishek.bh.17@gmail.com,18-25,product1,10,regular,"182 N. Fairground Street Fredericksburg, VA 22405",VA
+Suraj Sharma,iamkanishkyadav@gmail.com,18-25,product2,20,regular,"23 West Queen Dr. Minot, ND 58701",ND
+Udit,tanyagarg702@gmail.com,18-25,product2,20,regular,"7201 Inverness Street Birmingham, AL 35209",AL
+Savinay,ppratiksha95@yahoo.com,18-25,product2,20,regular,"7613 Sleepy Hollow St. Addison, IL 60101",IL
+Abhishek Bhardwaj,chakrabortysanchit@gmail.com,18-25,product3,30,regular,"313 Broad Drive Farmingdale, NY 11735",NY
+Kanishk Yadav,anujpanchal16@gmail.com,18-25,product3,30,regular,"70 S. Indian Spring Rd. North Bergen, NJ 07047",NJ
+Tanya Garg,nanhikhushi12@gmail.com,18-25,product3,30,regular,"913 North Piper St. Hackensack, NJ 07601",NJ
+Pratiksha,himanshubist858@gmail.com,18-25,product3,30,regular,"9494 South Saxton St. Whitestone, NY 11357",NY
+Sanchit Chakraborty,Vinaykumar.vk9899@gmail.com,18-25,product3,30,regular,"71 Woodsman Rd. Montclair, NJ 07042",NJ
+Anuj Panchal,yatinyadav1998@gmail.com,18-25,product4,30,regular,"29 Lilac Court Uniondale, NY 11553",NY
+Ishmeher Singh Ahuja,shristidabola8@gmail.com,18-25,product4,30,regular,"45 Roosevelt Dr. Littleton, CO 80123",CO
+Himanshu Bist,neerajsraj@gmail.com,18-25,product4,30,regular,"8832 Strawberry Drive Nicholasville, KY 40356",KY
+Vinay Kumar,naseer206ahmad@gmail.com,18-25,product3,30,regular,"9349 Corona Street Redford, MI 48239",MI
+Yatin Yadav,shikhar1551998@gmail.com,18-25,product3,30,regular,"407 South Shub Farm St. Tupelo, MS 38801",MS
+Shristi Dabola,puniet.singla@gmail.com,18-25,product3,30,regular,"472 Brook Street Cary, NC 27511",NC
+Neeraj,nidhi.chy8@gmail.com,18-25,product3,30,regular,"9503 Pineknoll St. Utica, NY 13501",NY
+Naseer Ahmad,nimish.1500@gmail.com,18-25,product1,10,regular,"699 South Bayport Ave. Painesville, OH 44077",OH
+shikhar Bansal,nanhikhushi12@gmail.com,18-25,product1,10,regular,"7423 Ann Court Hamden, CT 06514",CT
+Puneet Singla,Urmilshah0@gmail.com,18-25,product1,10,regular,"10 Wakehurst St. Oak Park, MI 48237",MI
+Nidhi Choudhary,Prashantahlawat40640@gmail.com,18-25,product1,10,regular,"778 Green Lake St. Battle Creek, MI 49015",MI
+Nimish Sharma,shivi111999@gmail.com,18-25,product2,20,regular,"30 Temple Road Pickerington, OH 43147",OH
+Aditya Gupta,shourya.sahdev@gmail.com,18-25,product2,20,regular,"297 Lake Forest Circle Rockaway, NJ 07866",NJ
+Urmil chheda,pershadmayank@gmail.com,18-25,product2,20,regular,"6 East Bellevue Ave. Lexington, NC 27292",NC
+PRASHANT,pragunmangla3@gmail.com,18-25,product4,30,regular,"1 River Drive Harrison Township, MI 48045",MI
+Shivani,alindgupta99@gmail.com,18-25,product4,30,regular,"8287 4th Court Glendale Heights, IL 60139",IL
+Shourya Sahdev,nanhikhushi12@gmail.com,18-25,product4,30,regular,"248 Linden Drive Dearborn Heights, MI 48127",MI
+Mayank,muskansaini257@gmail.com,18-25,product3,30,regular,"9310 Linden Rd. Buford, GA 30518",GA
+Pragun Mangla,pals2972@gmail.com,18-25,product3,30,regular,"605 Brickell Ave. Staunton, VA 24401",VA

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+{% load static %}
+<head>
+  <STYLE>
+    #bg{
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+  </STYLE>
+  <meta charset="UTF-8">
+  <title>CodePen - Login Form with floating placeholder and light button</title>
+  <link rel="stylesheet" href="{% static 'client/walletid/style.css' %}">
+
+</head>
+<body id="bg" style="background-image: url('{% static "img/id.jpg"%}')";>
+<script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+<!-- partial:index.partial.html -->
+<div class="login-box">
+  <h2>ENTER</h2>
+  <form action="/walletid/" method="post" >
+    {% csrf_token %}
+    <div class="user-box">
+      <input type="text" name="walletid" required="" >
+      <label>WALLET ID</label>
+    </div>
+<!--    <div class="user-box">-->
+<!--      <input type="password" name="" required="">-->
+<!--      <label>Password</label>-->
+<!--    </div>-->
+<!--    <button type="submit" </button>-->
+    <a href="#" s>
+      <span ></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      PRESS ENTER
+    </a>
+  </form>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

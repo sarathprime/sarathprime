@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  {% load static %}
+  <meta charset="UTF-8">
+  <title>CodePen - CSS Coin</title>
+  <link rel="stylesheet" href="{% static 'coin/style.css' %}">
+
+</head>
+<body>
+<script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+<!-- partial:index.partial.html -->
+<div class="coin">
+  <div class="side heads">$</div>
+  <div class="side tails">$</div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+{% extends "donor/donotor_index.html" %}
+{% load static %}
+{% block content %}
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Tables using LI</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="{% static 'donor/reciptient/style.css' %}">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body id="bg" style="background-image: url('{% static "img/bg10.jpg"%}')";>
+<script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+<!-- <div class="w3-sidebar w3-bar-block" style="width:13%; background-color:#707B7C; margin-top:-300px;">-->
+<!--  <a href="#" class="w3-bar-item w3-button">REGISTER</a>-->
+<!--  <a href="#" class="w3-bar-item w3-button">PURPOSE</a>-->
+<!--  <a href="#" class="w3-bar-item w3-button">WALLET</a>-->
+<!--        <a href="#" class="w3-bar-item w3-button">ACCOUNT</a>-->
+<!--   <a href="#" class="w3-bar-item w3-button">LOGOUT</a>-->
+    </div>
+<!-- partial:index.partial.html -->
+<div class="container" style="margin-top:300px;">
+  <h2 style="color:white;">START UP IDEAS FUND REQUEST <small>FAST&SECURE</small></h2>
+  <ul class="responsive-table">
+    <li class="table-header" style="width:1000px;">
+      <div class="col col-1">NAME</div>
+      <div class="col col-2">EMAIL</div>
+      <div class="col col-3" style="margin-left:160px;">TARGET</div>
+      <div class="col col-4">IDEA DOCUMENT</div>
+      <div class="col col-4" STYLE="MARGIN-LEFT:20PX;">DONATE</div>
+    </li>
+
+    <li class="table-row" style="width:1000px;">
+      {% for data in datas %}
+      <div class="col col-1" data-label="Job Id">{{data.yourname}}</div>
+      <div class="col col-2" data-label="Customer Name">{{data.email}}</div>
+      <div class="col col-3" data-label="Amount" style="margin-left:160px;">{{data.targetamount}}</div>
+      <div class="col col-4" data-label="Payment Status"><a href=" {{data.file.url}}" download> DOWNLOAD</a> </div>
+      {% endfor %}
+      <!-- HTML !-->
+ <div class="col col-4" data-label="Payment Status" style="margin-left:-25px;"><a href="/donor_purpose_form/"> <button class="button-57" role="button"><span class="text">DONOATE</span><span>ENTER PROFILO</span></button> </a></div>
+
+
+    </li>
+<!--    <li class="table-row">-->
+<!--      <div class="col col-1" data-label="Job Id">42442</div>-->
+<!--      <div class="col col-2" data-label="Customer Name">Jennifer Smith</div>-->
+<!--      <div class="col col-3" data-label="Amount">$220</div>-->
+<!--      <div class="col col-4" data-label="Payment Status">Pending</div>-->
+    </li>
+<!--    <li class="table-row">-->
+<!--      <div class="col col-1" data-label="Job Id">42257</div>-->
+<!--      <div class="col col-2" data-label="Customer Name">John Smith</div>-->
+<!--      <div class="col col-3" data-label="Amount">$341</div>-->
+<!--      <div class="col col-4" data-label="Payment Status">Pending</div>-->
+    </li>
+<!--    <li class="table-row">-->
+<!--      <div class="col col-1" data-label="Job Id">42311</div>-->
+<!--      <div class="col col-2" data-label="Customer Name">John Carpenter</div>-->
+<!--      <div class="col col-3" data-label="Amount">$115</div>-->
+<!--      <div class="col col-4" data-label="Payment Status">Pending</div>-->
+    </li>
+  </ul>
+</div>
+<!-- partial -->
+  {% endblock %}
+</body>
+
+</html>

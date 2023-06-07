@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+{% extends "client/client_index.html" %}
+{% load static %}
+{% block content %}
+
+  <head>
+      <style>
+          #bg{
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+      </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'client/purpose_form/fonts/icomoon/style.css' %}">
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'client/purpose_form/css/bootstrap.min.css' %}">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="{% static 'client/purpose_form/css/style.css' %}">
+
+    <title>Contact Form #4</title>
+  </head>
+  <body id="bg" style="background-image: url('{% static "img/bg1234.jpg"%}')";>
+<script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+
+
+  <div class="content">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 mr-auto">
+          <h3 class="mb-3">Let's work together</h3>
+          <p style="background:Maroon;">“Fundraising is the gentle art of teaching the joy of giving.” — Henry Rosso </p>
+<!--          <p>Quasi optio numquam pariatur amet laudantium, dicta ullam obcaecati nihil eveniet et aperiam beatae illum vitae in asperiores, a ex. Voluptates accusantium, beatae dolorem natus delectus nostrum, iusto nemo optio quas eum, quis a in reprehenderit totam, sequi distinctio impedit.</p>-->
+
+          
+        </div>
+
+        <div class="col-md-6">
+          <div class="box">
+            <h3 class="heading">How Can We Help?</h3>
+            <form class="mb-5" method="post" id="contactForm" name="contactForm" action="/purpose_form/">
+                {% csrf_token %}
+              <div class="row">
+                
+                <div class="col-md-6 form-group">
+                  <label for="name" class="col-form-label">Name *</label>
+                  <input type="text" class="form-control" name="yourname" id="name" placeholder="Your name">
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="name" class="col-form-label">Organization</label>
+                  <input type="text" class="form-control" name="organisation" id="organization" placeholder="Your organization">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email" class="col-form-label">Email *</label>
+                  <input type="text" class="form-control" name="email" id="email" placeholder="Your email address">
+                </div>
+              </div>
+              <div class="col-md-6 form-group"  >
+                  <label for="message" class="col-form-label" style="margin-left:-20px;">CONTACT</label>
+                  <input type="text" class="form-control" name="contact" id="date" placeholder="eg:98758768" style="width:470px; margin-left:-20px;">
+
+
+                </div>
+              <div class="row mb-3">
+                <div class="col-md-6 form-group">
+                  <label for="budget" class="col-form-label">PURPOSE</label>
+                  <select class="custom-select" id="budget" name="purpose" style="width:460px;">
+    <option selected>Choose...</option>
+    <option value="BUISNESS">BUISNESS</option>
+    <option value="MEDICAL">MEDICAL</option>
+    <option value="PERSONAL CAUSE">PERSONAL CAUSE</option>
+    <option value="CHARITY">CHARITY</option>
+<!--    <option value="$25,000 >">$25,000 ></option>-->
+  </select>
+                </div>
+
+              <div class="row">
+<!--                <div class="col-md-12 form-group">-->
+<!--                  <label for="message" class="col-form-label">Project Description *</label>-->
+<!--                  <textarea class="form-control" name="message" id="message" cols="30" rows="7"></textarea>-->
+                </div>
+              </div>
+
+
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <input style="background:Maroon;" type="submit" value="UPDATE" class="btn btn-block btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                </div>
+              </div>
+            </form>
+
+            <div id="form-message-warning mt-4"></div> 
+            <div id="form-message-success">
+              Your message was sent, thank you!
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    
+    
+
+    <script src="{% static 'client/purpose_form/js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'client/purpose_form/js/popper.min.js' %}"></script>
+    <script src="{% static 'client/purpose_form/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'client/pur  pose_form/js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'client/purpose_form/js/main.js' %}"></script>
+{% endblock %}
+  </body>
+</html>

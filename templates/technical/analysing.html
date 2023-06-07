@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+{% load static %}
+<head>
+  <STYLE>
+    .button-69 {
+  background-color: initial;
+  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -4px;
+  outline: 0;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: 190px;
+}
+
+.button-69:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 1000px) {
+  .button-69 {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 150px;
+  }
+}
+  </STYLE>
+  <meta charset="UTF-8">
+  <title>CodePen - Deleting Loader Pure CSS</title>
+  <link rel="stylesheet" href="{% static 'technical/analyse/style.css' %}">
+
+</head>
+<body>
+<script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+<!-- partial:index.partial.html -->
+<div class="cont">
+  <div class="paper"></div>
+  <button><div class='loader' STYLE="WIDTH:200PX;">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>ANALYSE</button>
+  <div class="g-cont">
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+    <div class="garbage"></div>
+  </div>
+</div>
+<a href="/view_transaction/"><button id="button-69" class="button-69" role="button" STYLE="MARGIN-TOP:700PX; MARGIN-LEFT:550PX; HEIGHT:80PX; WIDTH:170PX; visibility: hidden;">COMPLETED</button></a>
+<!-- partial -->
+  <script  src="{% static 'technical/analyse/script.js' %}"></script>
+  <script>
+     function showlink() {
+          document.getElementById("button-69").style.visibility= "visible";
+
+  }
+      setTimeout("showlink()", 5000);
+  </script>
+
+</body>
+</html>
+
+
+<!-- HTML !-->
+
+
+

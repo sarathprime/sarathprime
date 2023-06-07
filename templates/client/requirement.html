@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+
+<head>
+      <STYLE>
+    #bg{
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+        /* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{% static 'client/requirement/fonts/material-icon/css/material-design-iconic-font.min.css' %}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{% static 'client/requirement/css/style.css' %}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body id="bg" style="background-image: url('{% static "img/id.jpg"%}')";>
+<script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+    <div class="w3-sidebar w3-bar-block" style="width:13%; background-color:#111111;">
+  <a href="/upload_requirement/" class="w3-bar-item w3-button">REGISTER</a>
+  <a href="/purpose_form/" class="w3-bar-item w3-button">PURPOSE</a>
+  <a href="/reciptient_Wallet/" class="w3-bar-item w3-button">WALLET</a>
+        <a href="/link_account_details/" class="w3-bar-item w3-button">ACCOUNT</a>
+        <a href="/currency_converter/" class="w3-bar-item w3-button">C CONVERTER</a>
+        <a href="/C_logout/" class="w3-bar-item w3-button">LOG OUT</a>
+    </div>
+    <div class="main">
+        <div class="container" style="height:200px;">
+            <div class="booking-content">
+                <div class="booking-image">
+                    <img class="booking-img" src="{% static 'img/a1.jpg' %}" alt="Booking Image">
+                </div>
+                <div class="booking-form">
+                    <form id="booking-form" action="/upload_requirement/" method="post" enctype="multipart/form-data" >
+                        {% csrf_token %}
+                        <h2>Proceed your idea folks!!</h2>
+                        <div class="form-group form-input">
+                            <input type="text" name="yourname" id="name" value="" required/>
+                            <label for="name" class="form-label">PROVIDER NAME</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="text" name="email" id="name" value="" required/>
+                            <label for="name" class="form-label">EMAIL</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="text" name="buisness" id="name" value="" required/>
+                            <label for="name" class="form-label">type</label>
+                        </div>
+                        <div class="form-group form-input">
+                            <input type="text" name="targetamount" id="name" value="" required/>
+                            <label for="name" class="form-label">TARGET($)</label>
+                        </div>
+                         <div class="form-group form-input">
+                            <input type="text" name="employers" id="phone" value="" required />
+                            <label for="phone" class="form-label">EMPLOYERS </label>
+                        </div>
+                        <div class="form-radio">
+                            <label class="label-radio"> CURRENT EMPLOYERS</label>
+                            <div class="radio-item-list">
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="2" id="number_people_2" />
+                                    <label for="number_people_2">2</label>
+                                </span>
+                                <span class="radio-item active">
+                                    <input type="radio" name="number_people" value="4" id="number_people_4" checked="checked" />
+                                    <label for="number_people_4">4</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="6" id="number_people_6" />
+                                    <label for="number_people_6">6</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="8" id="number_people_8" />
+                                    <label for="number_people_8">8</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="10" id="number_people_10" />
+                                    <label for="number_people_10">10</label>
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        <input type="file" name="file" <button  class="button-3" role="button" STYLE="MARGIN-TOP:-30PX;"></button>
+                        <br><br>
+                        <div class="form-submit" style="margin-left:90px;">
+                            <input type="submit" value="FORWARD" class="submit" id="submit" name="submit" />
+
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="{% static 'client/requirement/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'client/requirement/js/main.js' %}"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- HTML !-->
+
+

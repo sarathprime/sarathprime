@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<style>
+		span{
+		font-size:66px;
+		}
+
+		.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+	div.register{
+		background-color:green;
+		background-width:20%;
+		}
+		#bg{
+background-size: 1800px 900px;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+	</style>
+</head>
+<body id="bg" style="background-image: url('{% static "img/register.jpg"%}')";>
+<script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+<a href="/c_index/" style="padding-left:50px;"><button class="btn btn-danger" style="color:black;background-color:Red;">X</button></a>
+<!--<form class="frConverter">-->
+<!--<table border="0" cellpadding="3" cellspacing="0">-->
+<!--<tr>-->
+<!--	<td>From USD</td>-->
+<!--	<td><input type="hidden" name="base_currency" value="usd"></td>-->
+<!--	<td><input type="text" name="base_value" size="10" value="100" id="firstNumber"></td>-->
+<!--</tr>-->
+
+<div class="center" style="margin-top:300px; width:50%; background-color:rgba(0,0,0,0.5) ; border-radius:10px; margin-left:350px;" >
+<!--<div class="register" style="width:20px;">-->
+	<h3 style="margin-left:220px; font-family:monospace; font-size:28px; background-color:; background-width:10%;"> $ TO  CRYPTO</h3>
+<!--	<td><input type="hidden" name="target_currency" value="inr" id="firstNumber"></td>-->
+	<div>
+	<input type="text" name="target_value" size="10" value="" id="firstNumber"  style="margin-left:250px; padding:20px; border-radius:10px; border-color:black;">
+	</div>
+<!--</tr>-->
+<!--</table>-->
+	<button class="button-30" role="button" onClick="multiplyBy()" style="margin-left:275px; padding:10px; margin-top:25px;">CONVERT</button>
+<!--	<input type="button" onClick="multiplyBy()" Value="CONVERT" >-->
+	<br><br><br><br><br><br>
+	<span id="result" STYLE="SIZE:22PX; margin-left:250px; color:#5D6D7E; text-shadow:2px 2px black; background-color: white ; font-family:font-variant-numeric"></span>
+	</div>
+	</div>
+
+<!--<input type="submit">-->
+</form>
+<script type="text/javascript">
+  function multiplyBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        document.getElementById("result").innerHTML = num1 * 125;
+}
+</script>
+
+
+</body>
+</html>
+
+<!-- HTML !-->
+
+

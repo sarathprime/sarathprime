@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <STYLE>
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+    </STYLE>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{% static 'client/link_Wallet/fonts/material-icon/css/material-design-iconic-font.min.css'  %}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{% static 'client/link_Wallet/css/style.css'  %}">
+</head>
+<body id="bg" style="background-image: url('{% static "img/bg10.jpg"%}')";>
+<script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+
+    <div class="main">
+        <button class="button-29" role="button" STYLE="MARGIN-TOP:-10PX; margin-left:165px;"><a href="/c_index/">HOME</a> </button>
+
+        <div class="container" style="width:1000px;">
+
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="{% static 'client/link_wallet/images/signup-img.jpg' %}" alt="" style="height:1000px;">
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form" action="/link_account_details/">
+                        {% csrf_token %}
+                        <h2>LINK ACCOUNT DETAILS</h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">ACCOUNT NAME :</label>
+                                <input type="text" name="name" id="name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="father_name">IFSC :</label>
+                                <input type="text" name="ifsc" id="father_name" required/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">CONTACT/ADDRESS :</label>
+                            <input type="text" name="email" id="address" required/>
+                        </div>
+<!--                        <div class="form-radio">-->
+<!--                            <label for="gender" class="radio-label">Gender :</label>-->
+<!--                            <div class="form-radio-item">-->
+<!--                                <input type="radio" name="gender" id="male" checked>-->
+<!--                                <label for="male">Male</label>-->
+<!--                                <span class="check"></span>-->
+<!--                            </div>-->
+<!--                            <div class="form-radio-item">-->
+<!--                                <input type="radio" name="gender" id="female">-->
+<!--                                <label for="female">Female</label>-->
+<!--                                <span class="check"></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">State :</label>
+                                <div class="form-select">
+                                    <select name="state" id="state">
+                                        <option value=""></option>
+                                        <option value="TAMILNADU">TAMILNADU</option>
+                                        <option value="ANDHRAPRADESH">ANDHRAPRADESH</option>
+                                        <option value="KERALA">KERALA</option>
+                                        <option value="DELHI">DELHI</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="city">City :</label>
+                                <div class="form-select">
+                                    <select name="city" id="city">
+                                        <option value=""></option>
+                                        <option value="CHENNAI">CHENNAI</option>
+                                        <option value="HYDREBAD">HYDREBAD</option>
+                                        <option value="BANGLORE">BANGLORE</option>
+
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="birth_date">DOB :</label>
+                            <input type="text" name="dob" id="birth_date">
+                        </div>
+                        <div class="form-group">
+                            <label for="pincode">ACCOUNT NUMBER :</label>
+                            <input type="text" name="number" id="pincode">
+                        </div>
+                        <div class="form-group">
+                            <label for="course">ACCOUNT TYPE :</label>
+                            <div class="form-select">
+                                <select name="type" id="course">
+                                    <option value=""></option>
+                                    <option value="SAVINGS">SAVINGS</option>
+                                    <option value="CURRENT">CURRENT</option>
+<!--                                    <option value="marketing">Marketing</option>-->
+                                </select>
+                                <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">AMOUNT($) :</label>
+                            <input type="text" name="cash" id="email" />
+                        </div>
+                        <div class="form-submit">
+                            <a href="/currency_converter/"><input type="button" value="C converter" class="submit" name="reset" id="reset" /></a>
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="{% static 'client/link_Wallet/vendor/jquery/jquery.min.js'  %}"></script>
+    <script src="{% static 'client/link_Wallet/js/main.js'  %}"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

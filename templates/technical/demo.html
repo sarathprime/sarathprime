@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Tax Calculator</title>
+    <link rel="stylesheet" href="tax-calc.css"/>
+    <script src="tax-calc.js"></script>
+  </head>
+  <body>
+  <script>
+{% for msg in messages %}
+
+	 alert('{{ msg }}');
+{% endfor %}
+
+</script>
+    <form onsubmit="return tcalc();">
+      <table>
+        <!-- (A) ITEM PRICE -->
+        <tr>
+          <td>Price</td>
+          <td>
+            <input type="number" min="0" max="9999" step="0.01"
+                   id="taxprice" required value="12.34"/>
+          </td>
+        </tr>
+
+        <!-- (B) TAX PERCENTAGE -->
+        <tr>
+          <td>Tax Percentage</td>
+          <td>
+            <input type="number" min="1" max="100" step="1"
+                   id="taxperc" required value="9"/>
+          </td>
+        </tr>
+
+        <!-- (C) TAXABLE AMOUNT -->
+        <tr>
+          <td>Tax Amount</td>
+          <td>
+            <input type="text" readonly id="taxamt"/>
+          </td>
+        </tr>
+
+        <!-- (D) TOTAL WITH TAX -->
+        <tr>
+          <td>Total With Tax</td>
+          <td>
+            <input type="text" readonly id="taxgrand"/>
+          </td>
+        </tr>
+      </table>
+
+      <!-- (E) GO! -->
+      <input type="submit" value="Go!"/>
+    </form>
+  </body>
+</html>
